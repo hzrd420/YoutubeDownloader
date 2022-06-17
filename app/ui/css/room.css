@@ -5,24 +5,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+html{
+    background-image: linear-gradient(rgba(8, 34, 74, 0.6), rgba(0,8,51,0.6)), url("../img/HomeBackground.png");
+}
+
+.container-room{
     width: 100%;
     min-width: 100vh;
-    padding: 24.1%;
-    background-image: linear-gradient(rgba(8, 34, 74, 0.6), rgba(0,8,51,0.6)), url("../img/HomeBackground.png");
-    background-position: center;
-    background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
 .search-bar{
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
+    height: 40px;
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
-    align-items: center;
+    align-items: top;
     border-radius: 60px;
     padding: 10px, 20px;
 }
@@ -43,8 +44,8 @@
 .search-bar button{
     border: 0;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: transparent;
     cursor: pointer;
 }
@@ -54,3 +55,18 @@
     
 }
 
+.container-video {
+    width: 100%;
+    min-width:200vh;
+    height: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame{
+    position: absolute;
+    float: none;
+    width: 50%;
+    height: 59%;
+}
